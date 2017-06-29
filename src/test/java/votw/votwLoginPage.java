@@ -34,6 +34,10 @@ public class votwLoginPage {
 		System.out.println("Into the method1");
 	}
 	
+	@Test
+	public void testMethod3(){
+		System.out.println("Into the method1");
+	}
 	@AfterSuite
 	public void closeBrowser(){
 		driver.quit();
