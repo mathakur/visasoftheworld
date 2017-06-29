@@ -36,7 +36,7 @@ public class votwLoginPage {
 	
 	@Test
 	public void testMethod3(){
-		System.out.println("Into the method1");
+		System.out.println("Into the method1123");
 	}
 	@AfterSuite
 	public void closeBrowser(){
