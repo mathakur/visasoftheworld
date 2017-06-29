@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Votw_TestSuite" duration-ms="31" started-at="2017-06-29T16:26:32Z" finished-at="2017-06-29T16:26:32Z">
+    <groups>
+    </groups>
+    <test name="Votw_Test" duration-ms="31" started-at="2017-06-29T16:26:32Z" finished-at="2017-06-29T16:26:32Z">
+      <class name="votw.votwLoginPage">
+        <test-method status="PASS" signature="getBrowser()[pri:0, instance:votw.votwLoginPage@3d8c7aca]" name="getBrowser" is-config="true" duration-ms="13754" started-at="2017-06-29T21:56:18Z" finished-at="2017-06-29T21:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:votw.votwLoginPage@3d8c7aca]" name="testMethod" duration-ms="2" started-at="2017-06-29T21:56:32Z" finished-at="2017-06-29T21:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:votw.votwLoginPage@3d8c7aca]" name="closeBrowser" is-config="true" duration-ms="1133" started-at="2017-06-29T21:56:32Z" finished-at="2017-06-29T21:56:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- votw.votwLoginPage -->
+    </test> <!-- Votw_Test -->
+  </suite> <!-- Votw_TestSuite -->
+</testng-results>
