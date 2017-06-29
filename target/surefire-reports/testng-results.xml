@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Votw_TestSuite" duration-ms="31" started-at="2017-06-29T16:26:32Z" finished-at="2017-06-29T16:26:32Z">
+  <suite name="Votw_TestSuite" duration-ms="40" started-at="2017-06-29T17:38:59Z" finished-at="2017-06-29T17:38:59Z">
     <groups>
     </groups>
-    <test name="Votw_Test" duration-ms="31" started-at="2017-06-29T16:26:32Z" finished-at="2017-06-29T16:26:32Z">
+    <test name="Votw_Test" duration-ms="40" started-at="2017-06-29T17:38:59Z" finished-at="2017-06-29T17:38:59Z">
       <class name="votw.votwLoginPage">
-        <test-method status="PASS" signature="getBrowser()[pri:0, instance:votw.votwLoginPage@3d8c7aca]" name="getBrowser" is-config="true" duration-ms="13754" started-at="2017-06-29T21:56:18Z" finished-at="2017-06-29T21:56:32Z">
+        <test-method status="PASS" signature="getBrowser()[pri:0, instance:votw.votwLoginPage@3498ed]" name="getBrowser" is-config="true" duration-ms="11263" started-at="2017-06-29T23:08:48Z" finished-at="2017-06-29T23:08:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowser -->
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:votw.votwLoginPage@3d8c7aca]" name="testMethod" duration-ms="2" started-at="2017-06-29T21:56:32Z" finished-at="2017-06-29T21:56:32Z">
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:votw.votwLoginPage@3498ed]" name="testMethod" duration-ms="2" started-at="2017-06-29T23:08:59Z" finished-at="2017-06-29T23:08:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:votw.votwLoginPage@3d8c7aca]" name="closeBrowser" is-config="true" duration-ms="1133" started-at="2017-06-29T21:56:32Z" finished-at="2017-06-29T21:56:33Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:votw.votwLoginPage@3498ed]" name="closeBrowser" is-config="true" duration-ms="1072" started-at="2017-06-29T23:08:59Z" finished-at="2017-06-29T23:09:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
