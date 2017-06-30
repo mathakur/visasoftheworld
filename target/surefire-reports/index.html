@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,21 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Votw_TestSuite" title="votw.votwLoginPage" hash-for-method="testMethod">testMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Votw_TestSuite" title="votw.votwLoginPage" hash-for-method="testMethod1">testMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Votw_TestSuite" title="votw.votwLoginPage" hash-for-method="testMethod2">testMethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Votw_TestSuite" title="votw.votwLoginPage" hash-for-method="testMethod3">testMethod3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Votw_TestSuite -->
@@ -128,6 +143,27 @@
                   <a name="testMethod">
                   </a> <!-- testMethod -->
                   <span class="method-name">testMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod1">
+                  </a> <!-- testMethod1 -->
+                  <span class="method-name">testMethod1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod2">
+                  </a> <!-- testMethod2 -->
+                  <span class="method-name">testMethod2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod3">
+                  </a> <!-- testMethod3 -->
+                  <span class="method-name">testMethod3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,11 +220,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testMethod')
+data.setCell(0, 1, 'testMethod1')
 data.setCell(0, 2, 'votw.votwLoginPage')
-data.setCell(0, 3, 2);
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMethod')
+data.setCell(1, 2, 'votw.votwLoginPage')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMethod2')
+data.setCell(2, 2, 'votw.votwLoginPage')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMethod3')
+data.setCell(3, 2, 'votw.votwLoginPage')
+data.setCell(3, 3, 0);
 window.suiteTableData['Votw_TestSuite']= { tableData: data, tableDiv: 'times-div-Votw_TestSuite'}
 return data;
 }
@@ -226,11 +274,23 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">testMethod</span>
-                <span class="method-start">26619 ms</span>
+                <span class="method-start">14977 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod1</span>
+                <span class="method-start">14979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod2</span>
+                <span class="method-start">14983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod3</span>
+                <span class="method-start">14984 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">27725 ms</span>
+                <span class="method-start">15235 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
