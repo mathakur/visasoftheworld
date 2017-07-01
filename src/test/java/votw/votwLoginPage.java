@@ -26,7 +26,7 @@ public class votwLoginPage {
 	
 	@Test
 	public void testMethod1(){
-		System.out.println("Into the method1");
+		System.out.println("Into the method12");
 	}
 	
 	@Test
